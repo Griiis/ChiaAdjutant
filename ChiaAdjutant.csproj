@@ -4,6 +4,13 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWPF>true</UseWPF>
+    <Authors>Griiis</Authors>
+    <Company>Griiis-Co</Company>
+    <Copyright>GNU</Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>Release\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
